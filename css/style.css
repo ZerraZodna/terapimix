@@ -294,6 +294,14 @@ a:hover {
   margin-bottom: var(--space-lg);
 }
 
+/* --- Bird Hero Text --- */
+.bird-hero-text {
+  text-align: center;
+  padding: 1rem 0;
+  max-width: var(--max-content);
+  margin: 0 auto;
+}
+
 /* --- Hero --- */
 .hero {
   min-height: 100vh;
