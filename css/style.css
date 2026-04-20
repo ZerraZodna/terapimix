@@ -627,4 +627,17 @@ a:hover {
   .section {
     padding: var(--space-xl) 0;
   }
+
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer__nav {
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .footer__link {
+    font-size: 0.75rem;
+  }
 }
