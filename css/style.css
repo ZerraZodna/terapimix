@@ -634,7 +634,7 @@ a:hover {
 
   .footer__nav {
     flex-wrap: wrap;
-    gap: var(--space-sm);
+    gap: 0.5rem;
   }
 
   .footer__link {
