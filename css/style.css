@@ -10,9 +10,9 @@
   --color-bg-alt: #f5f0e8;
   --color-text: #3a3836;
   --color-text-light: #7a7672;
-  --color-accent: #8b9d83;
-  --color-accent-dark: #6b8a63;
-  --color-accent-light: #d4e4c8;
+  --color-accent: #32747d;
+  --color-accent-dark: #255a61;
+  --color-accent-light: #a8c5cc;
   --color-gold: #c9a87a;
   --color-gold-light: #e8d5b5;
   --color-white: #ffffff;
@@ -134,6 +134,22 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Brand container - logo + home link */
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.nav__brand .nav__logo {
+  margin: 0;
+}
+
+/* Reduce gap between logo and links */
+.nav__inner > .nav__logo {
+  margin-right: var(--space-md);
 }
 
 .nav__logo {
