@@ -260,6 +260,7 @@ a:hover {
 .bird-hero {
   position: relative;
   min-height: 60vh;
+  max-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
