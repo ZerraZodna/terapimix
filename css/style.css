@@ -628,6 +628,24 @@ a:hover {
     padding: var(--space-xl) 0;
   }
 
+  .bird-hero {
+    min-height: 50vh;
+  }
+
+  .bird-hero__image {
+    object-fit: contain;
+    height: auto;
+    min-height: 100%;
+  }
+
+  .bird-hero__overlay {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .bird-hero__title {
+    font-size: 1.5rem;
+  }
+
   .footer {
     padding: 1.5rem 0;
   }
