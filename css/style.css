@@ -297,10 +297,13 @@ a:hover {
 
 /* --- Bird Hero Text --- */
 .bird-hero-text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  padding: 0 0 2rem 0;
   max-width: var(--max-content);
-  margin: 0 auto;
+  padding: 1rem;
 }
 
 /* --- Hero --- */
