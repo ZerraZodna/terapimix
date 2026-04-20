@@ -259,8 +259,8 @@ a:hover {
 /* --- Bird Hero Section --- */
 .bird-hero {
   position: relative;
-  min-height: 60vh;
-  max-height: 80vh;
+  min-height: 40vh;
+  max-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
