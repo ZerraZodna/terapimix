@@ -650,8 +650,9 @@ a:hover {
     min-height: 100%;
   }
 
-  .bird-hero__overlay {
-    padding: var(--space-lg) var(--space-md);
+  .bird-hero-text {
+    bottom: 15%;
+    padding: 0.5rem;
   }
 
   .bird-hero__title {
