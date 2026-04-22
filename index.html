@@ -109,7 +109,11 @@
       </div>
 
       <div class="card fade-in" style="margin-top: var(--space-lg);">
-        <img src="images/lake.jpeg" alt="Sjø" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: var(--space-sm);">
+        <picture>
+          <source media="(min-width: 769px)" srcset="images/lake.jpeg">
+          <source media="(max-width: 768px)" srcset="images/lake-mobile.jpeg">
+          <img src="images/lake-mobile.jpeg" alt="Sjø" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: var(--space-sm);">
+        </picture>
         <h3 class="card__title">Klarhet</h3>
         <p class="card__text">Finn klarhet gjennom stille stunder i naturen.</p>
       </div>

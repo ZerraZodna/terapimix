@@ -642,6 +642,7 @@ a:hover {
     text-align: center;
     z-index: 3;
     padding: var(--space-lg) var(--space-md);
+    margin-top: 9px;
   }
 
   .bird-hero__title {
